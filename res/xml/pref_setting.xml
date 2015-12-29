@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:title="뉴스 설정" >
+        <PreferenceScreen
+            android:key="screen_news_setting"
+            android:summary="뉴스 주제 관리"
+            android:title="뉴스 주제 선택" >
+
+            <!-- You can place more preferences here that will be shown on the next screen. -->
+            <PreferenceCategory android:title="뉴스 주제" >
+                <CheckBoxPreference
+                    android:key="news_all"
+                    android:title="주요뉴스" />
+                <CheckBoxPreference
+                    android:key="news_political"
+                    android:title="정치" />
+                <CheckBoxPreference
+                    android:key="news_economy"
+                    android:title="경제" />
+                <CheckBoxPreference
+                    android:key="news_society"
+                    android:title="사회" />
+                <CheckBoxPreference
+                    android:key="news_culture"
+                    android:title="문화/생활" />
+                <CheckBoxPreference
+                    android:key="news_nation"
+                    android:title="국제" />
+                <CheckBoxPreference
+                    android:key="news_science"
+                    android:title="정보과학" />
+                <CheckBoxPreference
+                    android:key="news_sports"
+                    android:title="스포츠" />
+                <CheckBoxPreference
+                    android:key="news_entertainment"
+                    android:title="연예" />
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
